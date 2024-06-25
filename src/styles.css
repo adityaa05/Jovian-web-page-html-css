@@ -1,0 +1,307 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    text-align: justify;
+    color: #262626;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+
+}
+
+#banner {
+    height: 300;
+    width: 100%;
+    object-fit: cover;
+}
+
+.location {
+    color: gray;
+
+}
+
+.navbar {
+    padding: 6px;
+}
+
+#logo {
+    height: 30px;
+}
+
+.about {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.description {
+
+    width: 50%;
+    /*margin-right: 5px;*/
+    padding: 5px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+
+
+}
+
+.team {
+    width: 50%;
+}
+
+#team-image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}
+
+.job-title {
+    text-align: center;
+}
+
+.jobs {
+    max-width: 1000px;
+    margin: 5px auto;
+}
+
+.jobs-table {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid grey;
+    background-color: #EEF2FF;
+
+    tr:hover {
+        background-color: #F0F9FF;
+    }
+}
+
+.jobs-row-header th {
+    border: 1px solid grey;
+    padding: 5px 3px;
+    padding-top: 15px;
+    background-color: #F0F9FF;
+    text-align: left;
+    font-size: 1.15rem;
+    font-family: "EB Garamond", serif;
+
+}
+
+.jobs-row-data td {
+    border: 1px solid grey;
+    padding: 12px 3px;
+    font-size: 0.95rem;
+
+}
+
+h3 {
+    margin-bottom: 2px;
+}
+
+.apply-button {
+    float: right;
+    text-decoration: none;
+}
+
+.main {
+    background: color #FBE9D0;
+}
+
+.form {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.form div {
+    margin: 10px;
+}
+
+.form input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+#submit{
+    padding: 8px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+    font-family: "Roboto", sans-serif;
+    background-color: #2563EB;
+    color: white;
+    font-weight: 800;
+    display: inline-block;
+}
+
+#cover-letter {
+    padding: 7px 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+
+#terms {
+    padding: 7px 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+    font-family: "Roboto", sans-serif;
+}
+
+#file-upload {
+    padding: 7px 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+#position {
+    padding: 7px 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+#name {
+    padding: 7px 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+
+}
+
+#email {
+    padding: 7px 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+
+
+}
+
+#phone {
+    padding: 7px 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+
+
+}
+
+#dob {
+    padding: 7px 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+
+
+}
+
+
+.footer {
+    background-color: ghostwhite;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+.footer-links {
+    list-style: none;
+
+
+}
+
+.footer-links li {
+    display: inline;
+
+}
+
+.footers {
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+.bootcamp-links {
+    text-decoration: none;
+}
+
+#Copyright {
+    color: grey;
+    text-align: center;
+    margin-top: 50px;
+}
